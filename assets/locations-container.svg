@@ -1,0 +1,31 @@
+<svg id="locations-container" xmlns="http://www.w3.org/2000/svg" width="890.954" height="890.955" viewBox="0 0 890.954 890.955">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #913c4b;
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_10" data-name="Rectangle 10" class="cls-1" transform="translate(445.553 56.568) rotate(45)">
+    <rect class="cls-3" width="550" height="550"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="549" height="549"/>
+  </g>
+  <g id="Rectangle_11" data-name="Rectangle 11" class="cls-2" transform="translate(445.477 0) rotate(45)">
+    <rect class="cls-3" width="630" height="630"/>
+    <rect class="cls-4" x="2" y="2" width="626" height="626"/>
+  </g>
+</svg>

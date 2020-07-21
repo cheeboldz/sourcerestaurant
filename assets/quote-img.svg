@@ -1,0 +1,23 @@
+<svg id="quote-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="79" viewBox="0 0 140 79">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #913c4b;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="140" height="79" transform="translate(0 0.387)"/>
+    </clipPath>
+  </defs>
+  <g id="quote-img-2" data-name="quote-img" class="cls-2" transform="translate(0 -0.387)">
+    <path id="quote-left" class="cls-3" d="M91.239,254.144H72.4a13.218,13.218,0,0,1-13.181-13.179c0-27.127-6.933-56.928,26.32-65.436,15.064-3.853,18.99,12.738,2.968,13.884-9.772.7-11.68,7.012-11.984,16.558H91.637a13.219,13.219,0,0,1,13.181,13.181v21.413a13.62,13.62,0,0,1-13.58,13.58Zm-58.656,0H13.742A13.216,13.216,0,0,1,.562,240.964c0-27.127-6.935-56.928,26.318-65.436,15.064-3.853,18.99,12.738,2.968,13.884-9.772.7-11.68,7.012-11.983,16.558H32.981a13.219,13.219,0,0,1,13.181,13.181v21.413a13.619,13.619,0,0,1-13.58,13.58Z" transform="translate(18.005 -174.757)"/>
+  </g>
+</svg>
