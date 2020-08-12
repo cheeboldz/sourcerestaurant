@@ -21,18 +21,29 @@ a:hover {
     width: 100%;
 }
 
-.navbar-brand {
+.nav {
+    width: 100%;
+}
+
+#brand {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
 
     position: absolute;
     top: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
+}
+
+#brand > h2, p {
+    padding: 0;
+    margin: 0;
 }
 
 #header {
@@ -78,8 +89,8 @@ a:hover {
 
 #globe-img {
     position: absolute;
-    height: 75%;
-    transform: translateX(5px);
+    height: 85%;
+    transform: translateX(10px)
 }
 
 #mission-text {
@@ -87,7 +98,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 21% 0 21% 0;
+    padding: 16% 0 16% 0;
     text-align: center;
 }
 
@@ -117,17 +128,12 @@ a:hover {
     background-size: cover;
 }
 
-#locations-img {
-    position: absolute;
-    height: 75%;
-}
-
 #menu-text, #locations-text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 18% 0 18% 0;
+    padding: 12% 0 12% 0;
     text-align: center;
 }
 
@@ -141,7 +147,12 @@ a:hover {
 }
 
 #footer-branding {
-    padding-top: 4rem;
+    padding: 4rem 0 4rem 0;
+}
+
+#footer-branding > h2, p {
+    padding: 0;
+    margin: 0;
 }
 
 #footer-content {
@@ -167,7 +178,15 @@ a:hover {
     padding-left: 6rem;
 }
 
+.section-text > h2 {
+    margin: 0;
+    padding: 0 0 2rem 0;
+}
 
+.section-text > p {
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+}
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
