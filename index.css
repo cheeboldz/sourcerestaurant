@@ -25,6 +25,11 @@ a:hover {
     width: 100%;
 }
 
+.disabled {
+    margin: 0;
+    padding: 0;
+}
+
 #brand {
     display: flex;
     flex-direction: column;
@@ -115,20 +120,20 @@ a:hover {
     background-size: cover;
 }
 
-#locations {
+#involvement {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    background: url(assets/locations-bckg.svg) no-repeat center center fixed; 
+    background: url(assets/involvement-bckg.svg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#menu-text, #locations-text {
+#menu-text, #involvement-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +152,7 @@ a:hover {
 }
 
 #footer-branding {
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 2.5rem 0;
 }
 
 #footer-branding > h2, p {
@@ -167,7 +172,7 @@ a:hover {
     flex-direction: column;
     justify-content: left;
     text-align: left;
-    padding-right: 6rem;
+    padding: 0;
 }
 
 #footer-nav-right {
@@ -175,7 +180,7 @@ a:hover {
     flex-direction: column;
     justify-content: right;
     text-align: right;
-    padding-left: 6rem;
+    padding: 0;
 }
 
 .section-text > h2 {
